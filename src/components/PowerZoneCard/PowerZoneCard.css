@@ -1,0 +1,29 @@
+
+
+.powerCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 20px solid;
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.powerCard-name {
+  margin: 0 0 8px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.powerCard-watts {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #374151;
+}
+
+@media (max-width: 900px) {
+  .powerZones-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

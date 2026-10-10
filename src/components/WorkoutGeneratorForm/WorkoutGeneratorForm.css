@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+.selects {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.selects select {
+    flex: 1 1 180px;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: white;
+    color: #111827;
+    font: inherit;
+    cursor: pointer;
+}
+
+option {
+    cursor: pointer;
+}
+
+.selects select:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+.wrapper button {
+    align-self: flex-start;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #111827;
+    color: white;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:disabled {
+        cursor: not-allowed;
+        opacity: 0,2;
+    }
+}
+
+.wrapper button:hover {
+    opacity: 0.8;
+}

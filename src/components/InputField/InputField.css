@@ -1,0 +1,28 @@
+.inp-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+
+    label {
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+    }
+
+    input {
+        height: 40px;
+        font-size: 18px;
+        color: black;
+        width: 100%;
+        padding: 8px
+    }
+
+    .error-message {
+        color: red;
+        font-size: 12px;
+        margin: 0;
+        align-self: flex-end;
+    }
+}

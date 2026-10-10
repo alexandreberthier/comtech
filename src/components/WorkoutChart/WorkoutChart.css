@@ -1,0 +1,60 @@
+.workout-chart {
+  display: flex;
+  width: 100%;
+  margin-top: 24px;
+  overflow-x: auto;
+}
+
+.workout-segment {
+  min-width: 4px;
+}
+
+.workout-block-area {
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.workout-block {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 8px;
+  box-sizing: border-box;
+
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+
+  overflow: hidden;
+}
+
+.workout-block span {
+  white-space: nowrap;
+}
+
+.workout-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  padding-top: 8px;
+
+  text-align: center;
+  font-size: 0.75rem;
+
+  overflow: hidden;
+}
+
+.workout-label strong,
+.workout-label span {
+  white-space: nowrap;
+}
+
+.workout-label span {
+  color: #6b7280;
+}
