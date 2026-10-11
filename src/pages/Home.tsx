@@ -42,7 +42,7 @@ export function Home() {
                         <li>useRef</li>
                         <li>props und callback props</li>
                         <li>Router</li>
-                        <li>Redux (createSlice & createStore, reducers)</li>
+                        <li>Redux (createSlice & createStore, reducers, preloadedState)</li>
                         <li>custom utils & hooks</li>
                     </ul>
                 </div>
