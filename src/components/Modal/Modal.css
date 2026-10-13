@@ -1,0 +1,35 @@
+.code-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background: rgba(20, 20, 20, 0.35);
+  backdrop-filter: blur(6px);
+}
+
+.code-modal {
+  width: min(800px, 100%);
+  max-height: 85vh;
+  background: white;
+  color: black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.code-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+
+.code-modal pre {
+  margin: 0;
+  padding: 20px;
+  max-height: 70vh;
+  overflow: auto;
+}
